@@ -604,8 +604,9 @@ animation: moveBanner 1s 0.9s forwards;
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -0.75rem;
-  margin-left: -0.75rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  text-align: center;
 }
 
 .no-gutters {
@@ -7772,22 +7773,22 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important;
+  padding-top: 0rem !important;
 }
 
 .pr-5,
 .px-5 {
-  padding-right: 3rem !important;
+  padding-right: 0rem !important;
 }
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 0rem !important;
 }
 
 .pl-5,
 .px-5 {
-  padding-left: 3rem !important;
+  padding-left: 0rem !important;
 }
 
 .m-n1 {
@@ -9875,6 +9876,9 @@ a.text-dark:hover, a.text-dark:focus {
 .text-muted {
   color: #6c757d !important;
   text-align: center;
+}
+.texto-muted{
+text-align: center;
 }
 
 .text-black-50 {
