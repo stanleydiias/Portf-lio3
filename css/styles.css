@@ -9874,6 +9874,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-muted {
   color: #6c757d !important;
+  text-align: center;
 }
 
 .text-black-50 {
@@ -10474,7 +10475,7 @@ header.masthead .masthead-heading {
 .team-member img {
   width: 14rem;
   height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  border: 0.5rem solid rgba(33, 181, 233, 0.1);
 }
 .team-member h4 {
   margin-top: 1.5rem;
